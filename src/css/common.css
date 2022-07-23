@@ -22,3 +22,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery {
+  display: flex;
+  list-style: none;
+}
+.task3__image{
+  margin: 10px;
+  width: 320px;
+  height: 213px;
+}
