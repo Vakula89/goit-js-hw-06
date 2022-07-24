@@ -1,8 +1,8 @@
 const form = document.querySelector(".login-form");
 
-form.addEventListener("submit", (evt) => {
-    evt.preventDefault();
-    const elements = evt.currentTarget.elements;
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const elements = event.currentTarget.elements;
     const names = ["email", "password"];
     const obj = {};
     for (const key in elements){
@@ -16,5 +16,5 @@ form.addEventListener("submit", (evt) => {
         obj[key] = elements[key].value;
     }
     console.log(obj);
-    evt.currentTarget.reset();
+    event.currentTarget.reset();
 })
