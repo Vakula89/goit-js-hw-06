@@ -12,7 +12,6 @@ const removeAll = function(containerBox ){
   }
   return false;
 }
-
 const createBoxes = function(amount){
   const elems = [];
   let w = 30;
